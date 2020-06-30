@@ -1,0 +1,20 @@
+pipeline {
+    agent any 
+    stages {
+        stage('Build') { 
+            steps {
+                echo 'My First Jenkinspipe build'
+            }
+        }
+        stage('Test') { 
+            steps {
+                echo 'My First Jenkinspipe test'
+            }
+        }
+        stage('Deploy') { 
+            steps {
+                echo 'My First Jenkinspipe deploy'
+            }
+        }
+    }
+}
