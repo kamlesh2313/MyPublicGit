@@ -1,19 +1,19 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
+        stage("Build") {
            steps {
-              echo 'My First Jenkinspipe build'
+              echo "Jenkinspipe build"
             }
         }
-        stage('test') {
+        stage("test") {
            steps {
-              echo 'My First Jenkinspipe test'
+              echo "Jenkinspipe test"
             }
         }
-        stage('deploy') {
+        stage("deploy") {
            steps {
-              echo 'My First Jenkinspipe deploy'
+              echo "My First Jenkinspipe deploy"
             }
         }
     }
